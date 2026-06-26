@@ -49,7 +49,7 @@ npx serve .
 # Instale a extensão e clique "Go Live"
 
 # Ou execute
-#node server.js
+node server.js
 
 ```
 Instalar e iniciar o servidor
