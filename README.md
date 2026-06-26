@@ -87,9 +87,9 @@ Story → PhaseSelect → CharSelect → Map ─┐
 
 ### Mecânica de Batalha
 - **Acerto**: 100% do ATK
-- **Erro**: 30% do ATK
-- **Assassino (Passiva)**: Crítico 30% chance (1.8×) em acertos; erros = 20% ATK
-- **Estudioso (Passiva)**: Vê recompensas sem desfoque; +5 ouro por vitória
+- **Erro**: 0% do ATK
+- **Assassino (Passiva)**: Crítico 15% chance (1.8×) em acertos;
+- **Estudioso (Passiva)**: Vê recompensas sem desfoque; menos 2 opção de respostas incorretas.
 
 ### Tipos de Vagão
 | Vagão | Tipo |
