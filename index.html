@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#050810">
+  <title>MetrôQuiz — O Trem do Conhecimento</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="game-container">
+    <!-- Canvas principal — gerenciado pelo Renderer.js -->
+    <canvas id="game-canvas" tabindex="0" aria-label="MetrôQuiz - Jogo"></canvas>
+
+    <!-- Tela de carregamento sobreposta -->
+    <div id="loading-screen" role="status" aria-live="polite">
+      <div class="loading-content">
+        <h1>DATA EXPRESS</h1>
+        <div class="loading-bar">
+          <div class="loading-fill" id="loading-fill"></div>
+        </div>
+        <p id="loading-text">Inicializando...</p>
+      </div>
+    </div>
+  </div>
+
+  <!--
+    Ponto de entrada — ES Module.
+    Game.js importa toda a árvore de módulos do jogo.
+  -->
+  <script type="module" src="src/core/Game.js"></script>
+</body>
+</html>

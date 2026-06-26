@@ -1,0 +1,13 @@
+{
+  "name": "metro-quiz-pvp-server",
+  "version": "1.0.0",
+  "description": "Servidor WebSocket para o Modo PvP do MetroQuiz",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "selfsigned": "^2.4.1",
+    "ws": "^8.18.0"
+  }
+}
