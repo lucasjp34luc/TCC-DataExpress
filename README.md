@@ -48,6 +48,8 @@ npx serve .
 # Live Server (VS Code)
 # Instale a extensão e clique "Go Live"
 
+# Ou execute
+#node server.js
 
 ```
 Instalar e iniciar o servidor
