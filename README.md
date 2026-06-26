@@ -54,11 +54,11 @@ node server.js
 ```
 Instalar e iniciar o servidor
 
+
+```
 cd game
 npm install
 node server.js
-```
-
 ```
 
 Acesse: `http://localhost:8080`
